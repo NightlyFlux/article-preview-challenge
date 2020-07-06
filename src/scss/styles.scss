@@ -1,0 +1,25 @@
+@import "_article";
+@import "_attribution";
+
+:root {
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --desaturatedDarkBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--lightGrayishBlue);
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}

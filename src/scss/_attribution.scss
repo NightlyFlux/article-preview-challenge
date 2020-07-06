@@ -1,0 +1,11 @@
+.attribution {
+  bottom: 0;
+  font-size: 11px;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  > a {
+    color: hsl(228, 45%, 44%);
+  }
+}

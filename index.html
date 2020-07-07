@@ -21,52 +21,71 @@
   <body>
     <div class="wrapper">
       <article class="article">
-        <div class="article__image">
-          <img class="image" src="./src/images/drawers.jpg" alt="drawers" />
-        </div>
+        <aside class="article__aside">
+          <img
+            class="article__image"
+            src="./src/images/drawers.jpg"
+            alt="drawers"
+          />
+        </aside>
 
         <div class="article__content">
-          <h1 class="title">
+          <h1 class="article__title">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
           </h1>
-          <p class="body">
+          <p class="article__body">
             Ever been in a room and felt like something was missing? Perhaps it
             felt slightly bare and uninviting. I’ve got some simple tips to help
             you make any room feel complete.
           </p>
-
-          <div class="author">
-            <img
-              src="./src/images/avatar-michelle.jpg"
-              alt="avatar"
-              class="author__image"
-            />
-            <div class="author__info">
-              <p class="name">Michelle Appleton</p>
-              <p class="date">28 Jun 2020</p>
+          <div class="article__footer">
+            <div class="article__author">
+              <img
+                src="./src/images/avatar-michelle.jpg"
+                alt="avatar"
+                class="article__author-image"
+              />
+              <div class="article__author-info">
+                <p class="article__author-name">Michelle Appleton</p>
+                <p class="article__author-date">28 Jun 2020</p>
+              </div>
             </div>
 
-            <a href="#" class="share">
-              <img
-                class="share__button"
-                src="./src/images/icon-share.svg"
-                alt="share"
-              />
-            </a>
-
-            <div class="share__menu" hidden>
-              <a href="#">Share</a>
-              <div class="social" hidden>
-                <a href="#"
-                  ><img src="./src/images/icon-facebook.svg" alt="facebook"
-                /></a>
-                <a href="#"
-                  ><img src="./src/images/icon-twitter.svg" alt="twitter"
-                /></a>
-                <a href="#"
-                  ><img src="./src/images/icon-pinterest.svg" alt="pinterest"
-                /></a>
+            <div class="article__actions">
+              <div class="button">
+                <img
+                  class="button__body"
+                  src="./src/images/icon-share.svg"
+                  alt="share"
+                />
+                <div class="button__popup">
+                  <p class="button__popup-title">Share</p>
+                  <div class="button__popup-social">
+                    <a class="button__popup-icon" href="#">
+                      <img
+                        src="./src/images/icon-facebook.svg"
+                        alt="facebook"
+                      />
+                    </a>
+                    <a class="button__popup-icon" href="#">
+                      <img src="./src/images/icon-twitter.svg" alt="twitter" />
+                    </a>
+                    <a class="button__popup-icon" href="#">
+                      <img
+                        src="./src/images/icon-pinterest.svg"
+                        alt="pinterest"
+                      />
+                    </a>
+                  </div>
+                  <div class="button active">
+                    <img
+                      class="button__body white"
+                      src="./src/images/icon-share.svg"
+                      alt="share"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -80,5 +99,7 @@
         >. Coded by <a href="#">Salvador Gómez Cuevas</a>.
       </footer>
     </div>
+
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
